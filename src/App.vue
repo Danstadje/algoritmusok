@@ -3,7 +3,7 @@
     <span class="brand">Algo Lab</span>
     <nav>
       <RouterLink to="/permutation">Szép permutáció</RouterLink>
-      <RouterLink to="/playlist">Lejátszási lista</RouterLink>
+      <RouterLink to="/distinct">Különböző számok</RouterLink>
     </nav>
   </header>
   <main><RouterView :key="$route.path" /></main>
