@@ -481,7 +481,7 @@ console.log(seen.size);`,
     },
     {
       name: "Számolás a halmaz méretéből",
-      idea: "Most összerakjuk: végigmegyünk a számokon, mindegyiket betesszük a halmazba, és a válasz a halmaz mérete. Nem kell külön megnézni a has-szal, hogy benne van-e, mert az add maga kiszűri az ismétlődést.",
+      idea: "Most összerakjuk: végigmegyünk a számokon, mindegyiket betesszük a halmazba, és a válasz a halmaz mérete. Nem kell külön megnézni a has-zel, hogy benne van-e, mert az add maga kiszűri az ismétlődést.",
       steps: ["Készíts egy üres halmazt.", "Menj végig a számokon, és tedd mindet a halmazba az add-dal.", "A halmaz mérete a különböző számok száma."],
       takeaway: "A has ellenőrzés fölösleges, az add magától kezeli az ismétlődést. Egy sor a ciklusban és egy a visszatérésnél elég.",
       code: `function countDistinct(nums) {
