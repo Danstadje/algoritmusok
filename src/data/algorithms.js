@@ -361,7 +361,7 @@ for (let i = 1; i <= n; i += 2) result.unshift(i);`,
 
 export const distinct = {
   title: "Különböző számok megszámolása",
-  intro: "Adott n szám. Számold meg, hány különböző érték van közöttük.",
+  intro: "Adott n pozitív egész szám. Számold meg, hány különböző érték van közöttük.",
   note: "A listában minden szám pozitív egész szám: nincs köztük nulla, negatív szám vagy tört.",
   parts: [
     {
