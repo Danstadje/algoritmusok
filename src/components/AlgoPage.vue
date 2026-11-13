@@ -22,7 +22,7 @@ const editorSrc = computed(() =>
 // if the editor ever shows a scrollbar (raise LINE_PX) or too much empty space (lower them).
 const LINE_PX = 22     // height of one code line
 const CHROME_PX = 60   // toolbar and padding above the code
-const OUTPUT_PX = 200  // output panel below the code (stacked layout)
+const OUTPUT_PX = 400  // output panel below the code (stacked layout)
 const editorHeight = computed(() => {
   const lines = props.page.parts[active.value].code.split('\n').length
   return Math.max(420, CHROME_PX + lines * LINE_PX + OUTPUT_PX)
